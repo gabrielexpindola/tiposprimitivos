@@ -86,8 +86,6 @@ static double multiplicar(double num1, double num2)
     return num1 * num2;
 }
 
-static void Main()
-{
     Console.Write("Digite o primeiro número: ");
     double numero1 = double.Parse(Console.ReadLine());
 
@@ -100,7 +98,6 @@ static void Main()
     Console.WriteLine("\nRESULTADOS");
     Console.WriteLine($"Soma: {resultadoSoma}");
     Console.WriteLine($"Multiplicação: {resultadoMultiplicacao}");
-}
 
 // Exercício 5
 int[] notas = new int[3];
